@@ -1,0 +1,29 @@
+{
+  "name": "desperate-times",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "proxy": "tsx src/proxy.ts",
+    "start": "tsx src/passthrough.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Westruva/desperate-times.git"
+  },
+  "keywords": [],
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Westruva/desperate-times/issues"
+  },
+  "homepage": "https://github.com/Westruva/desperate-times#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
